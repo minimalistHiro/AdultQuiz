@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39F2F0C95F1523EF34D11C90 /* Pods_AdultQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357517CF72B9D41DB67FE23D /* Pods_AdultQuiz.framework */; };
+		FD8E55DD2926281D00627B47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8E55DC2926281D00627B47 /* AppDelegate.swift */; };
+		FD8E55DF2926281D00627B47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8E55DE2926281D00627B47 /* SceneDelegate.swift */; };
+		FD8E55E12926281D00627B47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8E55E02926281D00627B47 /* ViewController.swift */; };
+		FD8E55E42926281D00627B47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8E55E22926281D00627B47 /* Main.storyboard */; };
+		FD8E55E62926281E00627B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8E55E52926281E00627B47 /* Assets.xcassets */; };
+		FD8E55E92926281E00627B47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8E55E72926281E00627B47 /* LaunchScreen.storyboard */; };
+		FD8E55F1292780C200627B47 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8E55F0292780C200627B47 /* QuizViewController.swift */; };
+		FD8E55F3292781CF00627B47 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8E55F2292781CF00627B47 /* ScoreViewController.swift */; };
+		FD8E55F7292A266400627B47 /* quiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = FD8E55F6292A266400627B47 /* quiz1.csv */; };
+		FDDDC364292A2C5C00BB2102 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = FDDDC35E292A2C5B00BB2102 /* correct.png */; };
+		FDDDC365292A2C5C00BB2102 /* 決定ボタンを押す木琴.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDDDC35F292A2C5C00BB2102 /* 決定ボタンを押す木琴.mp3 */; };
+		FDDDC366292A2C5C00BB2102 /* キャンセル1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDDDC360292A2C5C00BB2102 /* キャンセル1.mp3 */; };
+		FDDDC367292A2C5C00BB2102 /* クイズ不正解1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDDDC361292A2C5C00BB2102 /* クイズ不正解1.mp3 */; };
+		FDDDC368292A2C5C00BB2102 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = FDDDC362292A2C5C00BB2102 /* incorrect.png */; };
+		FDDDC369292A2C5C00BB2102 /* クイズ正解1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDDDC363292A2C5C00BB2102 /* クイズ正解1.mp3 */; };
+		FDDDC36B292A30E900BB2102 /* SelectLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDDC36A292A30E900BB2102 /* SelectLevelViewController.swift */; };
+		FDDDC36D292A342500BB2102 /* quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = FDDDC36C292A342500BB2102 /* quiz2.csv */; };
+		FDDDC36F292A343500BB2102 /* quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = FDDDC36E292A343500BB2102 /* quiz3.csv */; };
+		FDDDC371292BA3A200BB2102 /* CommentaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDDC370292BA3A200BB2102 /* CommentaryViewController.swift */; };
+		FDDDC373292E134900BB2102 /* IMG_0030.PNG in Resources */ = {isa = PBXBuildFile; fileRef = FDDDC372292E134900BB2102 /* IMG_0030.PNG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14BFF7AC5F53252ED506C9EA /* Pods-AdultQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdultQuiz.debug.xcconfig"; path = "Target Support Files/Pods-AdultQuiz/Pods-AdultQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+		357517CF72B9D41DB67FE23D /* Pods_AdultQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdultQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E3C32CDC64DBDCC71EB477 /* Pods-AdultQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdultQuiz.release.xcconfig"; path = "Target Support Files/Pods-AdultQuiz/Pods-AdultQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		FD8E55D92926281D00627B47 /* AdultQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdultQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8E55DC2926281D00627B47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD8E55DE2926281D00627B47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FD8E55E02926281D00627B47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD8E55E32926281D00627B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD8E55E52926281E00627B47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD8E55E82926281E00627B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD8E55EA2926281E00627B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD8E55F0292780C200627B47 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		FD8E55F2292781CF00627B47 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		FD8E55F6292A266400627B47 /* quiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz1.csv; sourceTree = "<group>"; };
+		FDDDC35E292A2C5B00BB2102 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		FDDDC35F292A2C5C00BB2102 /* 決定ボタンを押す木琴.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "決定ボタンを押す木琴.mp3"; sourceTree = "<group>"; };
+		FDDDC360292A2C5C00BB2102 /* キャンセル1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "キャンセル1.mp3"; sourceTree = "<group>"; };
+		FDDDC361292A2C5C00BB2102 /* クイズ不正解1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "クイズ不正解1.mp3"; sourceTree = "<group>"; };
+		FDDDC362292A2C5C00BB2102 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
+		FDDDC363292A2C5C00BB2102 /* クイズ正解1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "クイズ正解1.mp3"; sourceTree = "<group>"; };
+		FDDDC36A292A30E900BB2102 /* SelectLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelViewController.swift; sourceTree = "<group>"; };
+		FDDDC36C292A342500BB2102 /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz2.csv; sourceTree = "<group>"; };
+		FDDDC36E292A343500BB2102 /* quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz3.csv; sourceTree = "<group>"; };
+		FDDDC370292BA3A200BB2102 /* CommentaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentaryViewController.swift; sourceTree = "<group>"; };
+		FDDDC372292E134900BB2102 /* IMG_0030.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0030.PNG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD8E55D62926281D00627B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F2F0C95F1523EF34D11C90 /* Pods_AdultQuiz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4296E0F9C552D027093F1F3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				357517CF72B9D41DB67FE23D /* Pods_AdultQuiz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDF221E56DAB5ADFEF872356 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14BFF7AC5F53252ED506C9EA /* Pods-AdultQuiz.debug.xcconfig */,
+				B6E3C32CDC64DBDCC71EB477 /* Pods-AdultQuiz.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD8E55D02926281D00627B47 = {
+			isa = PBXGroup;
+			children = (
+				FD8E55DB2926281D00627B47 /* AdultQuiz */,
+				FD8E55DA2926281D00627B47 /* Products */,
+				CDF221E56DAB5ADFEF872356 /* Pods */,
+				4296E0F9C552D027093F1F3A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD8E55DA2926281D00627B47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD8E55D92926281D00627B47 /* AdultQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD8E55DB2926281D00627B47 /* AdultQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				FD8E55DC2926281D00627B47 /* AppDelegate.swift */,
+				FD8E55DE2926281D00627B47 /* SceneDelegate.swift */,
+				FD8E55E02926281D00627B47 /* ViewController.swift */,
+				FDDDC36A292A30E900BB2102 /* SelectLevelViewController.swift */,
+				FD8E55F0292780C200627B47 /* QuizViewController.swift */,
+				FD8E55F2292781CF00627B47 /* ScoreViewController.swift */,
+				FDDDC370292BA3A200BB2102 /* CommentaryViewController.swift */,
+				FD8E55E22926281D00627B47 /* Main.storyboard */,
+				FD8E55E72926281E00627B47 /* LaunchScreen.storyboard */,
+				FDDDC35D292A2C5B00BB2102 /* image */,
+				FD8E55F6292A266400627B47 /* quiz1.csv */,
+				FDDDC36C292A342500BB2102 /* quiz2.csv */,
+				FDDDC36E292A343500BB2102 /* quiz3.csv */,
+				FD8E55E52926281E00627B47 /* Assets.xcassets */,
+				FD8E55EA2926281E00627B47 /* Info.plist */,
+			);
+			path = AdultQuiz;
+			sourceTree = "<group>";
+		};
+		FDDDC35D292A2C5B00BB2102 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				FDDDC372292E134900BB2102 /* IMG_0030.PNG */,
+				FDDDC35E292A2C5B00BB2102 /* correct.png */,
+				FDDDC35F292A2C5C00BB2102 /* 決定ボタンを押す木琴.mp3 */,
+				FDDDC360292A2C5C00BB2102 /* キャンセル1.mp3 */,
+				FDDDC361292A2C5C00BB2102 /* クイズ不正解1.mp3 */,
+				FDDDC362292A2C5C00BB2102 /* incorrect.png */,
+				FDDDC363292A2C5C00BB2102 /* クイズ正解1.mp3 */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD8E55D82926281D00627B47 /* AdultQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD8E55ED2926281E00627B47 /* Build configuration list for PBXNativeTarget "AdultQuiz" */;
+			buildPhases = (
+				25BE1E9CDC6CC6448416AC98 /* [CP] Check Pods Manifest.lock */,
+				FD8E55D52926281D00627B47 /* Sources */,
+				FD8E55D62926281D00627B47 /* Frameworks */,
+				FD8E55D72926281D00627B47 /* Resources */,
+				1A4E963BEFA95B37FADB23FD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdultQuiz;
+			productName = AdultQuiz;
+			productReference = FD8E55D92926281D00627B47 /* AdultQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD8E55D12926281D00627B47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					FD8E55D82926281D00627B47 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = FD8E55D42926281D00627B47 /* Build configuration list for PBXProject "AdultQuiz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD8E55D02926281D00627B47;
+			productRefGroup = FD8E55DA2926281D00627B47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD8E55D82926281D00627B47 /* AdultQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD8E55D72926281D00627B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDDC364292A2C5C00BB2102 /* correct.png in Resources */,
+				FDDDC373292E134900BB2102 /* IMG_0030.PNG in Resources */,
+				FDDDC369292A2C5C00BB2102 /* クイズ正解1.mp3 in Resources */,
+				FD8E55E92926281E00627B47 /* LaunchScreen.storyboard in Resources */,
+				FDDDC365292A2C5C00BB2102 /* 決定ボタンを押す木琴.mp3 in Resources */,
+				FDDDC367292A2C5C00BB2102 /* クイズ不正解1.mp3 in Resources */,
+				FD8E55F7292A266400627B47 /* quiz1.csv in Resources */,
+				FD8E55E62926281E00627B47 /* Assets.xcassets in Resources */,
+				FDDDC366292A2C5C00BB2102 /* キャンセル1.mp3 in Resources */,
+				FDDDC36D292A342500BB2102 /* quiz2.csv in Resources */,
+				FDDDC368292A2C5C00BB2102 /* incorrect.png in Resources */,
+				FD8E55E42926281D00627B47 /* Main.storyboard in Resources */,
+				FDDDC36F292A343500BB2102 /* quiz3.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A4E963BEFA95B37FADB23FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdultQuiz/Pods-AdultQuiz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdultQuiz/Pods-AdultQuiz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdultQuiz/Pods-AdultQuiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25BE1E9CDC6CC6448416AC98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdultQuiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD8E55D52926281D00627B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD8E55E12926281D00627B47 /* ViewController.swift in Sources */,
+				FD8E55DD2926281D00627B47 /* AppDelegate.swift in Sources */,
+				FDDDC371292BA3A200BB2102 /* CommentaryViewController.swift in Sources */,
+				FD8E55F3292781CF00627B47 /* ScoreViewController.swift in Sources */,
+				FD8E55DF2926281D00627B47 /* SceneDelegate.swift in Sources */,
+				FD8E55F1292780C200627B47 /* QuizViewController.swift in Sources */,
+				FDDDC36B292A30E900BB2102 /* SelectLevelViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD8E55E22926281D00627B47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD8E55E32926281D00627B47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD8E55E72926281E00627B47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD8E55E82926281E00627B47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD8E55EB2926281E00627B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD8E55EC2926281E00627B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD8E55EE2926281E00627B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14BFF7AC5F53252ED506C9EA /* Pods-AdultQuiz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = T9U9A227FB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdultQuiz/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiroki.AdultQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FD8E55EF2926281E00627B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E3C32CDC64DBDCC71EB477 /* Pods-AdultQuiz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = T9U9A227FB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdultQuiz/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiroki.AdultQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD8E55D42926281D00627B47 /* Build configuration list for PBXProject "AdultQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD8E55EB2926281E00627B47 /* Debug */,
+				FD8E55EC2926281E00627B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD8E55ED2926281E00627B47 /* Build configuration list for PBXNativeTarget "AdultQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD8E55EE2926281E00627B47 /* Debug */,
+				FD8E55EF2926281E00627B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD8E55D12926281D00627B47 /* Project object */;
+}
